@@ -1,0 +1,688 @@
+@import url('https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+	padding: 0;
+    scroll-behavior: smooth;
+}
+
+.intro{
+    background-image:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(images/BG2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+
+    height: 58.5rem;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro h1{
+    font-family: "ins", sans-serif; 
+    letter-spacing: 3px;
+    font-size: 6rem;
+    text-align:  center;
+    color: #00FF9C;
+    cursor: default;
+    text-shadow: 
+    0 0 9px #009e3f,
+    0 0 18px #009e3f,
+    0 0 37px #009e3f,
+    0 0 75px #009e3f,
+    0 0 150px #009e3f;
+}
+.intro h3{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    text-align: center;
+    cursor: default;
+    letter-spacing: 4px;
+}
+
+.Sec2{
+    background-image:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.70)),url(images/Section2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    height: 50.5rem;
+    color: white;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.Sec2 #title{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 5rem;
+    cursor: default;
+
+    
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+}
+.Sec2 #title span{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    color: #00FF9C;
+    text-shadow: 
+    0 0 9px #009e3f,
+    0 0 18px #009e3f,
+    0 0 37px #009e3f,
+    0 0 75px #009e3f,
+    0 0 150px #009e3f;
+}
+.Sec2 .container{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.Sec2 .box{
+
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  ;
+
+    text-align: center;
+
+    cursor: default;
+    padding: 10px;
+    margin: 50px 25px;
+    border: 3px solid #000000;
+    background-color: rgba(6, 6, 6, 0.5);
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+
+    box-shadow: 
+    0 0 10px #000000,
+    0 0 20px #000000,
+    0 0 40px #000000,
+    0 0 80px #000000;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+
+    transition: transform 0.5s ease;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+
+.Sec2 .box h2{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    padding: 10px 0;
+    font-size: 1.7rem;
+}
+.box h3{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    padding-top: 20px;
+    font-size: 1.3rem;
+}
+.box .how{
+    padding-top: 40px;
+
+}
+.box span{
+    color: #00FF9C;
+}
+
+
+
+.energy{
+    background-image:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.70)),url(images/RenewResized.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background-color: #0F0F0F;
+    height: 93.5rem;
+
+}
+.energy .container{
+    position: relative;
+    display: inline-block;
+}
+.energy .container h1{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+
+    position: absolute;
+    color: white;
+    top: 200px;
+
+    left: 450px;
+    width: 650px;
+
+    font-size: 3.3rem;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+    
+}
+.energy .container h2{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+
+    position: absolute;
+    color: white;
+    
+    top: 350px;
+    left: 550px;
+
+    width: 700px;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+
+    
+}
+#first{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    margin-top: 150px;
+    margin-left: 150px;
+
+    display: block;
+    width: 450px;
+    height: auto;
+
+    border-radius: 25px;
+}
+#second{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+    margin-top: 0px;
+    margin-left: 80rem;
+
+    display: block;
+    width: 450px;
+    height: auto;
+
+    border-radius: 25px;
+}
+#benefitsT{
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+
+    position: absolute;
+    color: white;
+
+    top: 800px;
+    left: 55rem;
+
+    width: 450px;
+    text-align: center;
+    font-size: 3rem;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+#benefits{
+    position: absolute;
+    color: white;
+
+    font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+
+    top: 950px;
+    left: 55rem;
+
+    width: 500px;
+
+    text-align: center;
+    font-size: 1.5rem;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    } to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.water{
+    background-image:linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.70)),url(images/WaterResized.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    height: 55.5rem;
+}
+
+.water .container{
+    position: relative;
+}
+.water .container .title{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+.water .container .title h1 {
+	color: #fff;
+	font-size: 5.8em;
+	position: absolute;
+    left: 1000px;
+    top: 75px;
+	transform: translate(-50%, -50%);
+
+    
+}
+
+.water .container .title h1:nth-child(1) {
+	color: transparent;
+	-webkit-text-stroke: 2px #008dde;
+}
+
+.water .container .title h1:nth-child(2) {
+	color: #008dde;
+	animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+	0%,
+	100% {
+		clip-path: polygon(
+			0% 45%,
+			16% 44%,
+			33% 50%,
+			54% 60%,
+			70% 61%,
+			84% 59%,
+			100% 52%,
+			100% 100%,
+			0% 100%
+		);
+	}
+
+	50% {
+		clip-path: polygon(
+			0% 60%,
+			15% 65%,
+			34% 66%,
+			51% 62%,
+			67% 50%,
+			84% 45%,
+			100% 46%,
+			100% 100%,
+			0% 100%
+		);
+	}
+}
+
+.water .container .subtitle{
+    color: white;
+    position: absolute;
+    font-size: 1.5rem;
+
+    width: 1000px;
+
+    top: 280px;
+    left: 350px;
+
+    
+}
+.water .container .subtitle{
+    font-family: "Nost", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@font-face{
+    font-family: Nost;
+    src: url(NostalgicWhispers-Regular.ttf);
+}
+@font-face{
+    font-family: Geo;
+    src: url(GeosansLight.ttf);
+}
+.water .container .p{
+    font-family: "Geo", sans-serif;
+    position: absolute;
+    color: white;
+    font-size: 1.3rem;
+
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+
+    width: 500px;
+    height: 370px;
+
+    line-height: 35px;
+
+    top: 350px;
+    left: 80rem;
+
+    text-align: center;
+    
+    border: 2px solid rgba(0, 0, 0, 0.459);
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+@keyframes Opac{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+.waterSecImage{
+    width: 600px; /* Set the width of the container */
+    height: 400px; /* Set the height of the container */
+    overflow: hidden; /* Ensures the image stays within the box */
+    border: 2px solid transparent; /* Optional: adds a border to the box */
+    border-radius: 10px;
+    position: absolute; /* Needed for absolute positioning of the image */
+
+
+
+    left: 350px;
+    top: 350px;
+
+
+}
+
+.waterSecImage img{
+    height: auto;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    justify-content: center;
+
+}
+
+.Actions{
+    background-color: #161617;
+    color: white;
+
+    height: 110rem;
+}
+@font-face{
+    font-family: ins;
+    src: url(LiberationMono-Regular.ttf);
+}
+
+.Actions .container{
+    font-size: 1.4rem;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Actions h1,h2{
+      font-family: "ins", sans-serif;
+    letter-spacing: 1px;  
+}
+.Actions h2{
+    padding-top: 30px;
+    font-size: 1.3rem;
+}
+.Actions h2::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 200px;
+    width: 5px;
+    left: 50%;
+    margin-top: 50px;
+    box-shadow: 0 0 5px #ffffff;
+    animation: Height linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 25%;
+}
+.Actions .afterAct1::after{
+    margin: 0;
+    box-shadow: 0 0 5px #ffffff;
+
+    animation: Height linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.Actions h3{
+    font-size: 1.2rem;
+    font-family: "ins", sans-serif;
+}
+.act1{
+    margin-top: 245px;
+    margin-right: 195px;
+
+
+    animation: OpacLeft linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.Actions .act1::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    right: 940px;
+    border-radius: 10px;
+    color: white;
+
+    box-shadow: 0 0 10px #ffffff;
+
+    animation: Opac linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    
+}
+
+.Actions .act2{
+    margin-top: 220px;
+    margin-left: 300px;
+
+
+
+    animation: OpacRight linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.Actions .act2::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 1px;
+    right: 940px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    animation: Opac linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.act3{
+    margin-top: 220px;
+    margin-right: 230px;
+
+
+
+    animation: OpacLeft2 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.Actions .act3::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    right: 940px;
+    margin-left: 40px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    animation: Opac linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    
+}
+.Actions .act4{
+    margin-top: 220px;
+    margin-left: 300px;
+
+
+
+    animation: OpacRight linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+
+.Actions .act4::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 1px;
+    right: 940px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffffff;
+    animation: Opac linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.act5{
+    margin-top: 220px;
+    margin-right: 270px;
+    
+
+
+    animation: OpacLeft3 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+}
+.Actions .act5::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 2px;
+    right: 940px;
+    margin-left: 40px;
+    box-shadow: 0 0 10px #ffffff;
+    border-radius: 10px;
+
+    animation: Opac linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 20%;
+    
+}
+
+.Actions .end{
+    margin-top: 200px;
+}
+
+
+
+
+
+
+
+
+@keyframes Opac{
+    from{
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+@keyframes Height{
+    from{
+        height: 10px;
+    } to {
+        height: 200px;
+    }
+}
+@keyframes OpacLeft{
+    from{
+        opacity: 0;
+        margin-right: 270px;
+    } to {
+        opacity: 1;
+        margin-right: 195px;
+    }
+}
+@keyframes OpacRight{
+    from{
+        opacity: 0;
+        margin-left: 375px;
+    } to {
+        opacity: 1;
+        margin-left: 300px;
+    }
+}
+@keyframes OpacLeft2{
+    from{
+        opacity: 0;
+        margin-right: 305px;
+    } to {
+        opacity: 1;
+        margin-right: 230px;
+
+    }
+}
+@keyframes OpacLeft3{
+    from{
+        opacity: 0;
+        margin-right: 345px;
+    } to {
+        opacity: 1;
+        margin-right: 270px;
+
+    }
+}
+

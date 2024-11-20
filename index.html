@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Green</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <div class="container">
+            <h3>Choose green for a better scene</h3>
+            <h1>GO GREEN</h1>
+        </div>
+    </div>
+    <section class="Sec2">
+        <h1 id="title">Going <span> Green </span></h1>
+        <div class="container">
+            
+            <div class="box">
+                <h2>What does <span>Going Green</span> mean ?</h2>
+                <h3>
+                    "Going Green" refers to the practice of adopting environmentally friendly habits, processes, and lifestyle choices aimed at reducing one's negative impact on the planet. 
+                    <br> <br>The concept focuses on sustainability and includes actions that help conserve resources, reduce pollution, and promote the health of ecosystems. 
+                 </h3>
+            </div>
+
+            <div class="box">
+                <h2>How to go <span>Green</span> ?</h2>
+                <h3 class="how">
+                    Going green is a great way to reduce your environmental footprint and help the planet. <br> <br> green is all about reducing how many resources you use, reusing items when you can, and recycling items that can’t be reused.
+                 </h3>
+            </div>
+        </section>
+
+    <section class="energy">
+        <div class="container">
+            <h1>Renewable Energy Sources</h1>
+            <h2>Renewable energy sources are critical for sustainable development, environmental protection, and energy security</h2>
+            <img src="images/Renewable energy.jpg" id="first">
+            <h1 id="benefitsT">Renewable energy benefits</h1>
+            <h2 id="benefits"> Reduces emissions, fights climate change, and improves air quality. <br><br>  Locally sourced and stable, lowering reliance on imports <br><br>
+                Creates millions of jobs, supporting economic growth. <br><br>  Endless resources, unlike finite fossil fuels.  </h2>
+            <img src="images/aSolar.jpg" id="second">
+        </div>
+    </section>
+
+    <section class="water">
+        <div class="container">
+            <div class="title">
+                <h1>Water Conservation</h1>
+                <h1>Water Conservation</h1>
+            </div>
+
+            <h1 class="subtitle">Water conservation is the practice of managing and using water resources responsibly to minimize waste, preserve ecosystems,
+                 and ensure water availability for future generations.</h1>
+            <h1 class="p">Water conservation preserves ecosystems, reduces strain on water resources, and lowers energy use, supporting environmental 
+                sustainability and resilience to droughts. Economically, it saves money on utility bills, reduces costs for governments,
+                 and boosts agricultural efficiency. Socially, it enhances water security, public health, and community responsibility,
+                  while mitigating climate change by reducing pollution and adapting to resource scarcity. Globally, 
+                conservation fosters sustainable development and alleviates resource conflicts in water-scarce regions.</h1>
+            <div class="waterSecImage">
+                <img class="secImage" id="secImage" src="images/Water2.jpg">
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="Actions">
+        <div class="container">
+            <h1> Want to be green but don't know how ?</h1>
+            <h2> Here's some actions you can take !</h2>
+            
+            <h3 class="act1">Reducing waste</h3>
+            <h2 class="afterAct1"></h2>
+
+            <h3 class="act2">Recycling and reusing</h3>
+            <h2 class="afterAct1"></h2>
+
+            <h3 class="act3">Conserving energy</h3>
+            <h2 class="afterAct1"></h2>
+
+            <h3 class="act4">Reducing pollution</h3>
+            <h2 class="afterAct1"></h2>
+
+            <h3 class="act5">Sustainable practices</h3>
+            <h2 class="afterAct1"></h2>
+
+            <h1 class="end"> That's it ! </h1>
+        </div>
+    </section>
+
+
+    <script type="text/javascript">
+        const image = document.getElementById('secImage');
+        window.addEventListener('scroll', function(){
+            image.style.width = 450 - +window.pageYOffset/12 +'%';
+        })
+    </script>
+</body>
+</html>
