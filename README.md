@@ -1,4 +1,4 @@
-Hi, I'm Malek Alatawi, and this is my project, Go Green, aimed to aware people for the imprtance of sustability.
+Hi, I'm Malek Alatawi, and this is my project, Go Green, aimed to aware people for the imprtance of sustainability.
 
 I designed the website using HTML and CSS, with natural colors to create a greener, more eco-friendly style.
 
